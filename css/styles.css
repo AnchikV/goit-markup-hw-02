@@ -1,0 +1,123 @@
+.web {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: calc(31 / 26);
+  color: #2196f3;
+}
+.studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: calc(31 / 26);
+  color: #000000;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header-list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #212121;
+}
+.header-list-item:hover,
+:focus {
+  color: #2196f3;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  color: #757575;
+}
+.hero {
+  background: #2f303a;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  color: #ffffff;
+}
+.button {
+  background: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #ffffff;
+}
+.h2-about {
+  color: #ffffff;
+}
+.h3-about {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+}
+.p-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: #757575;
+}
+.h {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+}
+.h3-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+.p-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #757575;
+}
+.button-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: #212121;
+  background: #f5f4fa;
+}
+.button-p:hover,
+:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+.h-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+}
+.p-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #757575;
+}
+.footer {
+  background: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: #ffffff;
+}
+.footer-studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: calc(31 / 26);
+  color: #ffffff;
+}
