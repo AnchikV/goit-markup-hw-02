@@ -1,37 +1,50 @@
+:root {
+  --main-color: #212121;
+  --text-color: #757575;
+  --white-color: #ffffff;
+  --active-color: #2196f3;
+  --logo-color: #000000;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
 .web {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: calc(31 / 26);
-  color: #2196f3;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
 }
 .studio {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: calc(31 / 26);
-  color: #000000;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
 }
-.body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-}
-.header-list-item {
+
+.header-list-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
-  color: #212121;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
-.header-list-item:hover,
+.header-list-link:hover,
 :focus {
-  color: #2196f3;
+  color: var(--active-color);
 }
 
 .header-link {
@@ -39,34 +52,51 @@
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
-  color: #757575;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 .hero {
   background: #2f303a;
+}
+.h1-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
+
 .button {
   background: #2196f3;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  color: #ffffff;
+  color: var(--white-color);
+  cursor: pointer;
 }
+.button:hover,
+:focus {
+  background: #188ce8;
+}
+
 .h2-about {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .h3-about {
   font-size: 14px;
   line-height: calc(16 / 14);
+  text-transform: uppercase;
+}
+.our-team{
+  background: #F5F4FA
 }
 .p-about {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: #757575;
+  color: var(--text-color);
 }
 .h {
   font-weight: 700;
@@ -82,42 +112,53 @@
   font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
-  color: #757575;
+  color: var(--text-color);
 }
 .button-p {
   font-weight: 500;
   font-size: 16px;
+  font-family: inherit;
   line-height: calc(26 / 16);
-  color: #212121;
+  color: var(--main-color);
   background: #f5f4fa;
+  cursor: pointer;
 }
 .button-p:hover,
 :focus {
   background: #2196f3;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .h-portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
+  color: var(--main-color);
 }
 .p-portfolio {
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
-  color: #757575;
+  color: var(--text-color);
 }
 .footer {
   background: #2f303a;
+}
+.footer-link {
   font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: #ffffff;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.footer-link:hover,
+:focus {
+  color: var(--active-color);
 }
 .footer-studio {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: bold;
   line-height: calc(31 / 26);
-  color: #ffffff;
+  color: var(--white-color);
 }
