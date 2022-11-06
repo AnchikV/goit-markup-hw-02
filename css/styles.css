@@ -4,6 +4,10 @@
   --white-color: #ffffff;
   --active-color: #2196f3;
   --logo-color: #000000;
+  --footer-color: rgba(255, 255, 255, 0.6);
+  --hero-background: #2f303a;
+  --active-button-background: #188ce8;
+  --team-background: #f5f4fa;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -43,7 +47,7 @@
   color: var(--main-color);
 }
 .header-list-link:hover,
-:focus {
+.header-list-link:focus {
   color: var(--active-color);
 }
 
@@ -55,8 +59,11 @@
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.link.current {
+  color: var(--active-color);
+}
 .hero {
-  background: #2f303a;
+  background: var(--hero-background);
 }
 .h1-hero {
   font-weight: 900;
@@ -69,7 +76,7 @@
 }
 
 .button {
-  background: #2196f3;
+  background: var(--active-color);
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -77,8 +84,8 @@
   cursor: pointer;
 }
 .button:hover,
-:focus {
-  background: #188ce8;
+.button:focus {
+  background: var(--active-button-background);
 }
 
 .h2-about {
@@ -89,8 +96,8 @@
   line-height: calc(16 / 14);
   text-transform: uppercase;
 }
-.our-team{
-  background: #F5F4FA
+.our-team {
+  background: var(--team-background);
 }
 .p-about {
   font-weight: 400;
@@ -120,12 +127,12 @@
   font-family: inherit;
   line-height: calc(26 / 16);
   color: var(--main-color);
-  background: #f5f4fa;
+  background: var(--team-background);
   cursor: pointer;
 }
 .button-p:hover,
-:focus {
-  background: #2196f3;
+.button-p:focus {
+  background: var(--active-color);
   color: var(--white-color);
 }
 .h-portfolio {
@@ -141,7 +148,7 @@
   color: var(--text-color);
 }
 .footer {
-  background: #2f303a;
+  background: var(--hero-background);
 }
 .footer-link {
   font-weight: 400;
@@ -152,8 +159,11 @@
   color: var(--white-color);
 }
 .footer-link:hover,
-:focus {
+.footer-link:focus {
   color: var(--active-color);
+}
+.footer-color {
+  color: var(--footer-color);
 }
 .footer-studio {
   font-family: "Raleway", sans-serif;
